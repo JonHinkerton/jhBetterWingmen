@@ -1,0 +1,48 @@
+{
+  "Components": [
+    {
+      "PatchType": "Remove",
+      "Target": "$RequirementNotBuiltProjectInColony$da3149ec-3d81-4032-ad38-83d286e34666"
+    }
+  ],
+  "ActionsOnFinish": {
+    "Actions": [
+      {
+        "PatchType": "Remove",
+        "Target": "$StartChronicle$8be2d25b65e8412f9978c668e6010077"
+      },
+      {
+        "PatchType": "Prepend",
+        "NewElement": {
+          "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+          "name": "$Conditional$992b093bc373418f807d9e2339085a0b",
+          "Comment": "",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "59303f79a33946b0a3cb099809b0804b, ColonyProjectFinished",
+                "name": "$ColonyProjectFinished$efe48670e945441382dbbb7d5895e33b",
+                "Not": false,
+                "m_Project": "!bp_5ecfc4503d2e46449076f8525edfe3d3"
+              }
+            ]
+          },
+          "IfTrue": {
+            "Actions": []
+          },
+          "IfFalse": {
+            "Actions": [
+              {
+                "$type": "1fd3c7ebaa8a499d9e5f7ac9a43bf6af, StartChronicle",
+                "name": "$StartChronicle$7810cceccb9043a98d4a3d6014d1cf0e",
+                "m_Chronicle": "!bp_06fb6b96d1ca4611b28b4c94283029f3",
+                "m_ColonyBlueprint": "!bp_e433f1613297486cb6ddec834f37dd95"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

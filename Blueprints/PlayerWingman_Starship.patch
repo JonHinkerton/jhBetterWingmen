@@ -1,0 +1,38 @@
+{
+  "HullSlots": {
+    "m_VoidShieldGenerator": "!bp_d53287355883474ca75d5ee1d504b59f",
+    "m_ArmorPlating": "!bp_d224bd5903da49e2b11c5cf663bbf39b",
+    "Weapons": [
+      {
+        "PatchType": "Insert",
+        "NewElement": {
+          "Type": "Port",
+          "Weapon": "!bp_9a8850f0b6604093a9ffbcfdcceeb00b",
+          "OffsetFromProw": 0,
+          "Width": 0
+        },
+        "InsertAfterTarget": {
+          "Type": "Port",
+          "Weapon": "!bp_9a8850f0b6604093a9ffbcfdcceeb00b",
+          "OffsetFromProw": 0,
+          "Width": 0
+        }
+      },
+      {
+        "PatchType": "Insert",
+        "NewElement": {
+          "Type": "Starboard",
+          "Weapon": "!bp_9a8850f0b6604093a9ffbcfdcceeb00b",
+          "OffsetFromProw": 0,
+          "Width": 0
+        },
+        "InsertAfterTarget": {
+          "Type": "Starboard",
+          "Weapon": "!bp_9a8850f0b6604093a9ffbcfdcceeb00b",
+          "OffsetFromProw": 0,
+          "Width": 0
+        }
+      }
+    ]
+  }
+}

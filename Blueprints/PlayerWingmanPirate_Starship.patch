@@ -1,0 +1,46 @@
+{
+  "m_Brain": "!bp_d93ea03e6581455c81e326b87a552612",
+  "HullIntegrity": 80,
+  "StarshipSpeed": 18,
+  "Evasion": 30,
+  "AiDesiredDistanceToPlayer": 4.0,
+  "HullSlots": {
+    "m_VoidShieldGenerator": "!bp_32bc21de3caf412687e4f4de3a23e864",
+    "m_ArmorPlating": "!bp_d224bd5903da49e2b11c5cf663bbf39b",
+    "Weapons": [
+      {
+        "PatchType": "Prepend",
+        "NewElement": {
+          "Type": "Dorsal",
+          "Weapon": "!bp_6518daf8214046c9a928cafc8a06715a",
+          "OffsetFromProw": 0,
+          "Width": 0
+        }
+      },
+      {
+        "PatchType": "Insert",
+        "NewElement": {
+          "Type": "Dorsal",
+          "Weapon": "!bp_6518daf8214046c9a928cafc8a06715a",
+          "OffsetFromProw": 0,
+          "Width": 0
+        },
+        "InsertAfterTarget": {
+          "Type": "Dorsal",
+          "Weapon": "!bp_6518daf8214046c9a928cafc8a06715a",
+          "OffsetFromProw": 0,
+          "Width": 0
+        }
+      },
+      {
+        "PatchType": "RemoveFromEnd",
+        "Target": {
+          "Type": "Prow",
+          "Weapon": "!bp_1dd14297fad5478a95ea1ce0ac384b1e",
+          "OffsetFromProw": 0,
+          "Width": 0
+        }
+      }
+    ]
+  }
+}
