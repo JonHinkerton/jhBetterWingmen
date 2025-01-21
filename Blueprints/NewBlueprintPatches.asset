@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Entries:
   - Guid: ca2239e8737940f9bf106961ef6f490d
-    Filename: PlayerWingmanPirate_Starship
+    Filename: PlayerWingmanPirate_Starship.patch
     PatchType: 2
   - Guid: 0c893e03a8a34415a4eeb59d7fc2e34a
-    Filename: PlayerWingman_Starship
+    Filename: PlayerWingman_Starship.patch
     PatchType: 2
   - Guid: 5ecfc4503d2e46449076f8525edfe3d3
-    Filename: PrStage10_StageProject
+    Filename: PrStage10_StageProject.patch
     PatchType: 2
   - Guid: 2111e2dfbadd482597f4f13d28b8b4a5
-    Filename: PrStage9_StageProject
+    Filename: PrStage9_StageProject.patch
     PatchType: 2

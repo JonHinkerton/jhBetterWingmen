@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Manifest:
     UniqueName: jhBetterWingmen
-    Version: 1.0
+    Version: 1.1
     DisplayName: Better Wingmen
     Description: Improves escorts from Dargonus colony projects
     Author: jonhinkerton
